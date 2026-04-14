@@ -12,5 +12,12 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
+gem "jekyll", "~> 4.4.1"
+gem "jekyll-remote-theme"
+gem "bigdecimal"
+gem "csv"
+gem "base64"
+gem "erb"
+
 gemspec
 
